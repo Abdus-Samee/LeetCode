@@ -7,7 +7,8 @@ public:
             s += 'a';
         }
         
-        if(n%2) s += 'b';
+        if(n%2) s += 'a';
+        else s += 'b';
         
         return s;
     }
